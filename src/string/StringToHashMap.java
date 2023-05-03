@@ -31,6 +31,7 @@ public class StringToHashMap {
             int currentCharFrequency = frequencyMap.get(currentChar);
             for (int i = 0; i < currentCharFrequency; i++) {
                 result.append(currentChar);
+                // hey
             }
         }
 
