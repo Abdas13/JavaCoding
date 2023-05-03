@@ -1,0 +1,14 @@
+curl -X POST \
+  https://restful-booker.herokuapp.com/booking \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "firstname" : "Jan",
+    "lastname" : "Kahverengi",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" : {
+        "checkin" : "2023-01-01",
+        "checkout" : "2023-03-01"
+    },
+    "additionalneeds" : "Breakfast"
+}'
