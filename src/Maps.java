@@ -12,6 +12,7 @@ public class Maps {
         map.put(9,"dd");
         map.put(11,"ee");
 
+
         for(Map.Entry<Integer,String>entry : map.entrySet())
             System.out.println("Key is: "+entry.getKey()+" *** "+"Value is: "+entry.getValue());
     }

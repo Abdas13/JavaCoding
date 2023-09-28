@@ -1,5 +1,6 @@
 package practice;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,6 +15,7 @@ public class FindFrequencyOfChars {
     public static Map<Character, Integer> findFrequency(String input) {
         char[] arr=input.toLowerCase().replaceAll("\\s","").toCharArray();
         Map<Character,Integer>frequency=new HashMap<>();
+
         for (char c: arr){
             if(frequency.containsKey(c)){
                 frequency.put(c, frequency.get(c)+1);

@@ -14,7 +14,7 @@ public class SortingBook {
         books.add(new Book("Ahmet Umit","AAA",476));
         Collections.sort(books);
         System.out.println(books);
-//        Collections.sort(books,new BookComparator().reversed());
+        books.sort(new BookComparator().reversed());
         System.out.println(books);
 
 

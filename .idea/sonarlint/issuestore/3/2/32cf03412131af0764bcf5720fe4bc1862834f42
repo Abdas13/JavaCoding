@@ -1,0 +1,6 @@
+
+J
+java:S1854"5Remove this useless assignment to local variable "j".(´¼ÉS
+O
+java:S2123":Remove this increment or correct the code not to waste it.(´¼ÉS
+E	java:S106	"+Replace this use of System.out by a logger.(Ã”…ªûÿÿÿÿ

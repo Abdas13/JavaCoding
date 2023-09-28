@@ -18,8 +18,6 @@ public class RemoveDuplicates {
         for (int i = 1; i <=8; i++) {
             if(!newList.contains(i)){
                 newList.add(i);
-            }else{
-                continue;
             }
         }
         System.out.println(newList);

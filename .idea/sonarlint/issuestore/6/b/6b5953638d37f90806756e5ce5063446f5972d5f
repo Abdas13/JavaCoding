@@ -1,0 +1,16 @@
+
+E	java:S106
+"+Replace this use of System.out by a logger.(Â¬Åøÿÿÿÿ
+Q	java:S125	"<This block of commented-out lines of code should be removed.(ä¨²¸
+K
+java:S1854"6Remove this useless assignment to local variable "sb".(‰š…
+<
+java:S1481"'Remove this unused "sb" local variable.(‰š…
+H
+java:S1481"-Remove this unused "counterA" local variable.(ÜµÚƒùÿÿÿÿ
+C
+java:S1481"-Remove this unused "counterB" local variable.(Á¥­•
+?	java:S106"+Replace this use of System.out by a logger.(©ÕˆP
+O
+java:S2864"4Iterate over the "entrySet" instead of the "keySet".(»¨ÙÊÿÿÿÿÿ
+?	java:S106$"+Replace this use of System.out by a logger.(©ÕˆP
