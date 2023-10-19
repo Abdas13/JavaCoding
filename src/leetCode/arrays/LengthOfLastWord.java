@@ -7,7 +7,6 @@ public class LengthOfLastWord {
     }
     public static int lengthOfLastWord(String str){
         int right = str.length()-1;
-
         int left=right;
         while (left>=0 && str.charAt(left)!=' '){
             left--;
