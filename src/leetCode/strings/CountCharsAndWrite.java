@@ -1,11 +1,15 @@
 package leetCode.strings;
 
+import java.util.Map;
+import java.util.TreeMap;
+
 public class CountCharsAndWrite {
     public static void main(String[] args) {
         String str = "aabcccddaaaac";
         //output=a2b1c3d2a4
         System.out.println(countChars(str).toString());
         System.out.println(countandWrite(str));
+        System.out.println(occurances(str));
     }
     public static StringBuilder countChars(String str) {
         StringBuilder sb = new StringBuilder();
@@ -41,5 +45,23 @@ public class CountCharsAndWrite {
             }
         }
         return sb.append(input.charAt(left)).append(count);
+    }
+    public static String occurances(String str){
+
+        String[] ch = str.toLowerCase().replace(" ", "").split("");
+        Map<String, Integer> tMap= new TreeMap<>();
+        for (String c:ch) {
+            tMap.put(c, tMap.getOrDefault(c,0)+1);
+        }
+        return writeOccurances(tMap);
+    }
+    public static String writeOccurances(Map<String, Integer> tMap){
+
+        StringBuilder orderedStr = new StringBuilder();
+
+        for (Map.Entry<String, Integer>entry:tMap.entrySet()) {
+            orderedStr.append(entry.getKey()).append(entry.getValue());
+        }
+        return orderedStr.toString();
     }
 }

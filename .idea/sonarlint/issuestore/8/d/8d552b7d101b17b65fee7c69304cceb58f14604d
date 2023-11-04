@@ -1,0 +1,28 @@
+
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Íåâàüÿÿÿÿ8Ô‘ÿ²°1
+U
+java:S1854"9Remove this useless assignment to local variable "infos".(“õÊH8Õ‘ÿ²°1
+_
+java:S1854"=Remove this useless assignment to local variable "qualified".(¥Ü€˜øÿÿÿÿ8Õ‘ÿ²°1
+N
+java:S1172
+",Remove this unused method parameter "temps".(Ý¯š“ûÿÿÿÿ8Ö‘ÿ²°1
+P
+java:S1481".Remove this unused "qualified" local variable.(¥Ü€˜øÿÿÿÿ8Ø‘ÿ²°1
+F
+java:S1481"*Remove this unused "infos" local variable.(“õÊH8å‘ÿ²°1
+H
+java:S1168"+Return an empty collection instead of null.(¥¹ï8ðÊÊŠ²1
+[
+java:S1854">Remove this useless assignment to local variable "dateFormat".(ûú»ú8å‘ÿ²°1
+]
+java:S1854";Remove this useless assignment to local variable "matDate".(¹¸»‹úÿÿÿÿ8æ‘ÿ²°1
+L
+java:S1172"/Remove this unused method parameter "modified".(·…‚ù8æ‘ÿ²°1
+L
+java:S1481"/Remove this unused "dateFormat" local variable.(ûú»ú8é‘ÿ²°1
+N
+java:S1481",Remove this unused "matDate" local variable.(¹¸»‹úÿÿÿÿ8ë‘ÿ²°1
+I
+java:S1144",Remove this unused private "prepare" method.(·…‚ù8ì‘ÿ²°1

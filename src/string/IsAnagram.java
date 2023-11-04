@@ -8,7 +8,9 @@ public class IsAnagram {
     public static void main(String[] args) {
         String str1="abcba";
         String str2="abcab";
-        System.out.println(isAnagram(str1,str2));
+        System.err.println(isAnagram(str1,str2));
+
+
 
     }
     public static boolean isAnagram(String str1, String str2) {

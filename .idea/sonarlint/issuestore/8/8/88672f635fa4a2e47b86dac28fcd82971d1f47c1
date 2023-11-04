@@ -1,0 +1,9 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃÁˆø8ü°—¬µ1
+]
+java:S1854";Remove this useless assignment to local variable "sumList".(ßÁ¶´ùÿÿÿÿ8€±—¬µ1
+S
+java:S1172
+"1Remove these unused method parameters "l1", "l2".(ÙÛşşÿÿÿÿ8‚±—¬µ1
+N
+java:S1481",Remove this unused "sumList" local variable.(ßÁ¶´ùÿÿÿÿ8„±—¬µ1

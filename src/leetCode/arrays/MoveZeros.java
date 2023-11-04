@@ -7,7 +7,10 @@ public class MoveZeros {
         //Input nums=[0,1,2,0,3,0,7,13]
         //Output =[1,2,3,7,13,0,0,0]
         int[] nums={0,1,2,0,3,0,7,13};
-        System.out.println(Arrays.toString(moveZeros(nums)));
+        System.err.println((Arrays.toString(moveZeros(nums))));
+
+
+//        moveZeros2(nums);
     }
     public static int[] moveZeros(int[] nums){
         if (nums.length==1) return nums;
@@ -22,6 +25,10 @@ public class MoveZeros {
         for (int i = left; i <nums.length ; i++) {
             nums[i]=0;
         }
+        return nums;
+    }
+    public static int[] moveZeros2(int[] nums){
+
         return nums;
     }
 }

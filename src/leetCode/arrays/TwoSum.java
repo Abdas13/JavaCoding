@@ -7,7 +7,7 @@ import java.util.List;
 
 public class TwoSum {
     public static void main(String[] args) {
-        int[] nums = {2, 5, 7, 15, 4, 10};
+        int[] nums = {2, 5, 7, 15, 4, 10};   // a + b = c  ise b = c - a
         int target = 9;
         System.out.println(Arrays.toString(twoSum(nums, target)));
 
@@ -28,6 +28,7 @@ public class TwoSum {
                 map.put(nums[i], i);
             }
         }
+        System.out.println(map);
         return ans;
     }
 
@@ -38,7 +39,6 @@ public class TwoSum {
             for (int j = i + 1; j < nums.length; j++) {
 
                 if (nums[i] + nums[j] == target) {
-
                     arrList.add("" + nums[i] + "+" + nums[j] + "=" + target);
                 }
 

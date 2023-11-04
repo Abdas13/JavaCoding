@@ -3,7 +3,7 @@ package leetCode.strings;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class IsBoolean {
+public class IsPalindrome {
 
     public static void main(String[] args) {
 
