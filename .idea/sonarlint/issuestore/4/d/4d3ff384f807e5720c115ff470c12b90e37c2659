@@ -1,0 +1,6 @@
+
+2
+java:S1643"Use a StringBuilder instead.(é²ˆŸ
+@	java:S106"+Replace this use of System.out by a logger.(ùÈˆ¿
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

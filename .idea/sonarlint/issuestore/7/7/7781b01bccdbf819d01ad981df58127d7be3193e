@@ -1,0 +1,19 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÆÇ†÷»1
+g	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÆÇ†÷»1
+g	java:S112I"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÆÇ†÷»1
+U
+java:S1117"8Rename "path" which hides the field declared at line 14.(í÷Æ8İÇ†÷»1
+G	java:S106""+Replace this use of System.out by a logger.(Û¢Ñ8âÇ†÷»1
+F	java:S106#"+Replace this use of System.out by a logger.(£í¤Q8äÇ†÷»1
+L	java:S106$"+Replace this use of System.out by a logger.(ûİÌ†ùÿÿÿÿ8æÇ†÷»1
+L	java:S106%"+Replace this use of System.out by a logger.(òÇ÷ßıÿÿÿÿ8èÇ†÷»1
+G	java:S106&"+Replace this use of System.out by a logger.(Æ¸ĞĞ8éÇ†÷»1
+]	java:S125)"<This block of commented-out lines of code should be removed.(Ÿ¤˜øûÿÿÿÿ8ôÇ†÷»1
+L	java:S1065"+Replace this use of System.out by a logger.(Ù’òûÿÿÿÿ8öÇ†÷»1
+L	java:S106<"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8À÷ˆ÷»1
+G	java:S106="+Replace this use of System.out by a logger.(ï‰³8ú‹÷»1
+Y
+java:S1128"<Remove this unused import 'org.apache.poi.ss.usermodel.Row'.(›Ü…8ğ®‰÷»1
+J
+java:S1068"(Remove this unused "path" private field.(á¨©æıÿÿÿÿ8ûÇ†÷»1

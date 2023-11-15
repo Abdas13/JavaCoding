@@ -1,0 +1,35 @@
+
+w
+java:S1192W"UDefine a constant instead of duplicating this literal "src/streams/data.txt" 3 times.(ŠóÑ“üÿÿÿÿ8¾™å»1
+f
+java:S2095W"DUse try-with-resources or close this "Stream" in a "finally" clause.(ŠóÑ“üÿÿÿÿ8Ì¾™å»1
+f
+java:S2095R"DUse try-with-resources or close this "Stream" in a "finally" clause.(£·Šöşÿÿÿÿ8Ë¾™å»1
+a
+java:S2095_"DUse try-with-resources or close this "Stream" in a "finally" clause.(¶øÇ‚8Ë¾™å»1
+Z
+java:S1854h"8Remove this useless assignment to local variable "hmap".(ÆÎœşÿÿÿÿ8Î¾™å»1
+G	java:S106"+Replace this use of System.out by a logger.(¬èø´8Ğ¾™å»1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ğ¾™å»1
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(›ì´¹8Ñ¾™å»1
+G	java:S106"+Replace this use of System.out by a logger.(›ì´¹8Ñ¾™å»1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ñ¾™å»1
+L	java:S106"+Replace this use of System.out by a logger.(†€Ÿùÿÿÿÿ8Ñ¾™å»1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8Ò¾™å»1
+L	java:S106$"+Replace this use of System.out by a logger.(·êÜöüÿÿÿÿ8Ò¾™å»1
+L	java:S106*"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8Ó¾™å»1
+L	java:S1060"+Replace this use of System.out by a logger.(·êÜöüÿÿÿÿ8Ô¾™å»1
+L	java:S106;"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8Ø¾™å»1
+L	java:S106@"+Replace this use of System.out by a logger.(Ñ×™“ùÿÿÿÿ8Ù¾™å»1
+G	java:S106D"+Replace this use of System.out by a logger.(œØòø8Ú¾™å»1
+L	java:S106H"+Replace this use of System.out by a logger.(æàÍ ıÿÿÿÿ8Ú¾™å»1
+L	java:S106O"+Replace this use of System.out by a logger.(¹¦…‡úÿÿÿÿ8Û¾™å»1
+b
+java:S1612U"@Replace this lambda with method reference 'System.out::println'.(ÅƒÚ…üÿÿÿÿ8İ¾™å»1
+L	java:S106U"+Replace this use of System.out by a logger.(ÅƒÚ…üÿÿÿÿ8İ¾™å»1
+G	java:S106]"+Replace this use of System.out by a logger.(“œÉ8ß¾™å»1
+L	java:S106d"+Replace this use of System.out by a logger.(ÑòÄ¼ÿÿÿÿÿ8à¾™å»1
+V
+java:S2864q"4Iterate over the "entrySet" instead of the "keySet".(ƒÈù„ÿÿÿÿÿ8ã¾™å»1
+L	java:S106r"+Replace this use of System.out by a logger.(îí¡ øÿÿÿÿ8ã¾™å»1

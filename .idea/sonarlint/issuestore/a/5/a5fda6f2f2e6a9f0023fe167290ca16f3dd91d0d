@@ -1,4 +1,6 @@
 
-E	java:S106"+Replace this use of System.out by a logger.(º“ôªþÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ
+L	java:S106"+Replace this use of System.out by a logger.(º“ôªþÿÿÿÿ8ïÂ³‚º1
+Q
+java:S1128"4Remove this unused import 'challenge.CompareArrays'.(â°Úò8Û×¶‚º1
+Q
+java:S1128"4Remove this unused import 'java.util.stream.Stream'.(ó÷Ž”8Û×¶‚º1

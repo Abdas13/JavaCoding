@@ -1,0 +1,7 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(¦¹ýð8µ¿¤¬º1
+L	java:S106"+Replace this use of System.out by a logger.(§¸É‹ÿÿÿÿÿ8·¿¤¬º1
+G	java:S106"+Replace this use of System.out by a logger.(€§“Ã8·¿¤¬º1
+_
+java:S2094C"BRemove this empty class, write its code or make it an "interface".(¨ù²¼8¹¿¤¬º1
+]	java:S125O"<This block of commented-out lines of code should be removed.(´Øûùüÿÿÿÿ8¹¿¤¬º1

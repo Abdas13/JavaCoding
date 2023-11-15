@@ -1,0 +1,11 @@
+
+7
+java:S1643"Use a StringBuilder instead.(ú‘·ıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Şñ«­
+h
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(ÓÆ€ûúÿÿÿÿ
+F
+java:S1481"0Remove this unused "fileContent" local variable.(û¼§
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ì¤©
+U
+java:S1128":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ

@@ -1,8 +1,9 @@
 package hackerrank.strings;
 
-import java.util.Arrays;
-import java.util.Locale;
-import java.util.Scanner;
+import challenge.CompareArrays;
+
+import java.util.*;
+import java.util.stream.Stream;
 
 public class Anagrams {
 

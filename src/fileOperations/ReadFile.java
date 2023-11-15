@@ -11,7 +11,7 @@ public class ReadFile {
         FileInputStream fis=new FileInputStream(path);
 
         int control=0;
-        String fileContent="";
+        String fileContent= "";
 
         while ((control=fis.read())!=-1){
             //System.out.print((char)control);

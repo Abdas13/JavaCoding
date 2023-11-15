@@ -1,0 +1,10 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ‚¾£
+@	java:S106"+Replace this use of System.out by a logger.(äû
+Q
+java:S2696	"6Make the enclosing method "static" or remove this set.(Ê§şÛşÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "c".(úÔâŠ
+<
+java:S1481"&Remove this unused "c" local variable.(úÔâŠ
+?	java:S106"+Replace this use of System.out by a logger.(ƒÚáB
