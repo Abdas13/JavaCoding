@@ -11,7 +11,9 @@ public class ExcelReturnColumnNumToChars {
         System.out.println(findColumnByLetters(26));
 
     }
+
     public static String findColumnByLetters(int n) {
+
 
         if (n <= 0) return "ERROR";
         char base = 'A';

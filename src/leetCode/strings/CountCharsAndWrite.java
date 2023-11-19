@@ -72,10 +72,12 @@ public class CountCharsAndWrite {
         for(String c: ch){
             tmap.put(c,tmap.getOrDefault(c,0)+1);  // it gives the frequency
         }
+
         StringBuilder sb = new StringBuilder();
         for (Map.Entry<String, Integer> entry: tmap.entrySet()){
             sb.append(entry.getKey()).append(entry.getValue());
         }
+
         return sb.toString();
     }
 }

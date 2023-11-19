@@ -9,10 +9,7 @@ public class IsAnagram {
         String str1="abcba";
         String str2="abcab";
         System.err.println(isAnagram(str1,str2));
-
-
-
-    }
+        }
     public static boolean isAnagram(String str1, String str2) {
         char[] ch1=str1.toCharArray();
         char[] ch2=str2.toCharArray();

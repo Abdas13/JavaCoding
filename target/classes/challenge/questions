@@ -1,0 +1,8 @@
+ Hüseyin Bey (QA): listede 4 tane farkli sifre var. User uc kere yanlis girince hesap kilitlendi, admin ile gorus mesaji goster. sifre dogruysa sisteme giris yapildi mesaji goster
+ Hüseyin Bey (QA): 4 adet user ve sifre sistemde kayitli, her bir sifre bir user a ait. Sisteme giriste username ve sifre iste. dogru user a ait dogru sifre girilirse sisteme hosgeldin mesaji yaz
+ Hüseyin Bey (QA): Menu olustur.
+1 - Tombala
+2 - Isim tersten yazdir
+3 - Karenin alanini hesapla
+4 - Ulke oyunu oyna
+ Hüseyin Bey (QA): 5- Random sayi bilme oyunu

@@ -1,5 +1,7 @@
 package codility;
 
+import java.util.HashMap;
+
 public class ExcelReturnColumnCharToNumber {
     public static void main(String[] args) {
         String columnTitle = "ABC";
