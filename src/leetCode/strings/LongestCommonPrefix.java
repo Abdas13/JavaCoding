@@ -1,5 +1,9 @@
 package leetCode.strings;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class LongestCommonPrefix {
 
     // ["flower", "flow", "flight"]
@@ -16,9 +20,10 @@ public class LongestCommonPrefix {
         }
         return prefix;
     }
-
     public static void main(String[] args) {
-        String[] strs= {"flower", "flow", "flight"};
+        String[] strs= {"flower","flow","flight"};
+        String[] str = {"choosen","copen", "cbroken" };
         System.out.println(longestComPrefix(strs));
+        System.out.println(longestComPrefix(str));
     }
 }

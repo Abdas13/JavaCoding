@@ -8,11 +8,11 @@ public class StackPushAndPop {
     public static void main(String[] args) {
         /*
         There are strings are given with PUSH and POP and numbers such as
-        String str1 = "PUSH -3;PUSH 25;POP 2;PUSH 30;PUSH 10;POP 1"
+        String str1 = "PUSH -3;PUSH 25;POP 2;PUSH 30;PUSH 10;POP 1"   [30]
         The number of POP is a positive number and means the number of elements must be deleted.
         The number of PUSH is between -100 and 100 any number means push that number.
         Above example output should be [30]
-        Example 2 : String str2 = "PUSH 100, PUSH -3; PUSH 25; POP 2; PUSH 30; PUSH 10; POP 1"
+        Example 2 : String str2 = "PUSH 100;PUSH -3;PUSH 25;POP 2;PUSH 30;PUSH 10;POP 1"
         output : [100, 30]
          */
         String str1 = "PUSH 100;PUSH -3;PUSH 25;POP 2;PUSH 30;PUSH 10;POP 1";
@@ -21,7 +21,7 @@ public class StackPushAndPop {
     public static int[] pushAndPop(String commandInfo){
 
         Stack<Integer > stack = new Stack<>();
-        String[] strArr = commandInfo.trim().split(";");
+        String[] strArr = commandInfo.trim().split(";");// ["PUSH 100",PUSH -3,PUSH 25,POP 2,PUSH 30,PUSH 10,POP 1]
 
         for (int i = 0; i < strArr.length; i++) {
             if(strArr[i].trim().startsWith("POP")) {

@@ -193,3 +193,13 @@ _
 /src/codility/ExcelReturnColumnCharToNumber.java,4/b/4b88a62ef69cd15af5d1d79a6887b1e744b9932e
 C
 src/java17/Zoo.java,8/c/8c8ba8adf225781003f8790174e9f756ac47c173
+\
+,src/leetCode/collections/RomanToInteger.java,e/6/e6eae9e71c948813a18b3a6bb26534016dcba0e1
+O
+src/streams/bookTypes/Book.java,b/c/bc96fcfa93f43e260fb0863718884d600bd3199c
+O
+src/streams/bookTypes/Type.java,f/5/f5da66bcb5116879c93a7afc2e2e381c6a3c1160
+S
+#src/streams/bookTypes/Exercise.java,c/a/ca7557e99f304a512074854e85d787f46f314e8b
+]
+-src/leetCode/arrays/OccupyParkingProblem.java,1/2/127ea8622673475478f2dc87a4b9e790b975a2f5
