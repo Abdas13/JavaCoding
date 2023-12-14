@@ -1,0 +1,44 @@
+
+j
+java:S1192$"ODefine a constant instead of duplicating this literal "[a-zA-Z0-9]{6}" 3 times.(‘ÅÃıÿÿÿÿ
+d
+java:S1192"NDefine a constant instead of duplicating this literal "[789][0-9]{9}" 4 times.(“ˆ‘é
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²­Å¼ıÿÿÿÿ
+Y
+java:S1854">Remove this useless assignment to local variable "matchFound".(¾åàÿÿÿÿÿ
+S
+java:S1854">Remove this useless assignment to local variable "lowerCases".(‚í
+D
+java:S1481"/Remove this unused "lowerCases" local variable.(‚í
+J
+java:S1481"/Remove this unused "matchFound" local variable.(¾åàÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ü¯ÚĞşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¬î½ıúÿÿÿÿ
+>
+java:S6396"#Remove this unnecessary quantifier.(¬î½ıúÿÿÿÿ
+W
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(¬î½ıúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(“ˆ‘é
+R
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(“ˆ‘é
+E	java:S106"+Replace this use of System.out by a logger.(íì üÿÿÿÿ
+W
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(íì üÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Ã¯×Œ
+R
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ã¯×Œ
+E	java:S106"+Replace this use of System.out by a logger.(àïÉüÿÿÿÿ
+W
+java:S6353"<Use concise character class syntax '\\d' instead of '[0-9]'.(àïÉüÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(­Ä¨«ÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(¹Ââùÿÿÿÿ
+>
+java:S6396"#Remove this unnecessary quantifier.(¹Ââùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÂÃÒÁşÿÿÿÿ
+>
+java:S6396"#Remove this unnecessary quantifier.(ÂÃÒÁşÿÿÿÿ
+E	java:S106!"+Replace this use of System.out by a logger.(˜ªÑöıÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(Õª†·ÿÿÿÿÿ
+E	java:S106$"+Replace this use of System.out by a logger.(‘ÅÃıÿÿÿÿ
+@	java:S106%"+Replace this use of System.out by a logger.(ÈÙâı
+@	java:S106&"+Replace this use of System.out by a logger.(ãèµü

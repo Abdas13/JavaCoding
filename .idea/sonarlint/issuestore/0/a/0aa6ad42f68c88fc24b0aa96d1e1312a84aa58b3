@@ -1,0 +1,10 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ØÉäûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÁõêÛûÿÿÿÿ
+@	java:S1064"+Replace this use of System.out by a logger.(†ë«Ö
+@	java:S1065"+Replace this use of System.out by a logger.(ÁÚ»
+Q	java:S1256"<This block of commented-out lines of code should be removed.(ïì‹Ú
+T
+java:S1128"9Remove this unused import 'leetCode.binary.BinarySearch'.(Šú¯Ëúÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

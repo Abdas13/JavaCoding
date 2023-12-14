@@ -10,7 +10,7 @@ public class ZeroSumOfTriplets {
     }
     public static List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> upperList = new HashSet<>();
-        Arrays.sort(nums);
+        Arrays.sort(nums); // [-4, -1, -1, 0, 1, 2]
 
         for (int i = 0; i < nums.length-2; i++) {
             int left = i + 1;

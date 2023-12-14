@@ -1,0 +1,7 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²­Å¼ýÿÿÿÿ
+—
+java:S2681"|This line will not be executed in a loop; only the first line of this 2-line block will be. The rest will execute only once.(ªÓ¼áþÿÿÿÿ
+@	java:S106	"+Replace this use of System.out by a logger.(ñîÁÝ
+@	java:S106"+Replace this use of System.out by a logger.(ïÜ³ó
+E	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áþÿÿÿÿ

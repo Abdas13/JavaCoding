@@ -10,7 +10,8 @@ public class CountCharsAndWrite {
 //        System.out.println(countChars(str).toString());
 //        System.out.println(countandWrite(str));
 //        System.out.println(occurances(str));
-        System.out.println(frequencyOfLetters(str));
+//        System.out.println(frequencyOfLetters(str));
+        System.out.println(newMethod(str));
 
     }
     public static StringBuilder countChars(String str) {
@@ -76,5 +77,20 @@ public class CountCharsAndWrite {
             sb.append(entry.getKey()).append(entry.getValue());
         }
         return sb.toString();
+    }
+    public static String newMethod(String s){
+        int left=0;
+        int count = 0;
+        StringBuilder sb = new StringBuilder();
+        for (int right = 0; right < s.length(); right++) {
+            if(s.charAt(right)==s.charAt(left))
+                count++;
+            else {
+                sb.append(s.charAt(left)).append(count);
+                left = right;
+                count = 1;
+            }
+        }
+        return sb.append(s.charAt(left)).append(count).toString();
     }
 }

@@ -14,7 +14,7 @@ public class PasswordValidation {
     public static void main(String[] args) {
         String lowerCases="/.*[a-z]";
 
-        Pattern pattern = Pattern.compile("Selv#571", Pattern.CASE_INSENSITIVE);
+        Pattern pattern = Pattern.compile("Helva#245", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher("");
         boolean matchFound = matcher.find();
 

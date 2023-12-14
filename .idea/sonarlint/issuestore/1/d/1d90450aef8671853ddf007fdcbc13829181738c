@@ -1,0 +1,11 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(­±¬Æùÿÿÿÿ
+@
+java:S1481
+"*Remove this unused "temp2" local variable.(Ìˆº
+P	java:S125"<This block of commented-out lines of code should be removed.(ªíÜg
+V	java:S125"<This block of commented-out lines of code should be removed.(ŠñÀ‚ÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(×Æáî
+V	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(°Š‹¸øÿÿÿÿ

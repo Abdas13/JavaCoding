@@ -1,5 +1,5 @@
 
-9
-java:S1643"Use a StringBuilder instead.(ğß…Å8ÂëèŒ¼1
-L	java:S106"+Replace this use of System.out by a logger.(—Ù™Æûÿÿÿÿ8ÈëèŒ¼1
-X	java:S125"<This block of commented-out lines of code should be removed.(´üô×8¿•êŒ¼1
+>
+java:S1643"Use a StringBuilder instead.(ø•Öêüÿÿÿÿ8„óŠ®Ã1
+L	java:S106"+Replace this use of System.out by a logger.(—Ù™Æûÿÿÿÿ8óŠ®Ã1
+G	java:S106"+Replace this use of System.out by a logger.(¿¤öÖ8óŠ®Ã1

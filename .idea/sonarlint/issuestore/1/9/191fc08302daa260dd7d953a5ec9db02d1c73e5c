@@ -1,0 +1,32 @@
+
+2
+java:S1643$"Use a StringBuilder instead.(®¥¹ƒ
+2
+java:S1643C"Use a StringBuilder instead.(®¥¹ƒ
+7
+java:S1643a"Use a StringBuilder instead.(Ôâ”Óşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²­Å¼ıÿÿÿÿ
+@	java:S106
+"+Replace this use of System.out by a logger.(İ´—ò
+@	java:S106"+Replace this use of System.out by a logger.(›Ì¥®
+E	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÕÕ€¡
+?	java:S106"+Replace this use of System.out by a logger.(Ã„¬.
+?	java:S106"+Replace this use of System.out by a logger.(ÏÂÛV
+E	java:S106"+Replace this use of System.out by a logger.(Î·Ëıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ôÁÏ–ıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(£àÍ¦ùÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(âØ¥…şÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(µ©´«üÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(˜Ë­…
+@	java:S106"+Replace this use of System.out by a logger.(Òé®ï
+A
+java:S1172."+Remove this unused method parameter "size".(õ²˜Æ
+@	java:S1060"+Replace this use of System.out by a logger.(ºõ—ú
+V	java:S125\"<This block of commented-out lines of code should be removed.(Ç¼Ùúøÿÿÿÿ
+W
+java:S1126}"AReplace this if-then-else statement by a single return statement.(Ë“‰
+B
+java:S1172‚",Remove this unused method parameter "limit".(ŠéÅP
+H
+java:S1172†",Remove this unused method parameter "limit".(ßğÙ˜úÿÿÿÿ

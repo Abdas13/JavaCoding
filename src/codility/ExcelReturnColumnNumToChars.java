@@ -8,13 +8,12 @@ public class ExcelReturnColumnNumToChars {
     Example : input id 28, output is AB
      */
     public static void main(String[] args) {
-        System.out.println(findColumnByLetters(26));
+        System.out.println(findColumnByLetters(731));
+        System.out.println(findColumnChars(28));
 
     }
 
     public static String findColumnByLetters(int n) {
-
-
         if (n <= 0) return "ERROR";
         char base = 'A';
         String letter = "";
@@ -25,11 +24,15 @@ public class ExcelReturnColumnNumToChars {
         }
         return letter;
         }
-
+        public static String findColumnChars(int n){
+        char base = 'A';
+        StringBuilder sb = new StringBuilder();
+        while (n>0){
+            n--;
+            sb.insert(0,(char) (n%26 + base));
+            n /= 26;
+        }
+        return sb.toString();
+        }
 }
-//        StringBuilder solution
-//        StringBuilder sb = new StringBuilder();
-//        while(n>0){
-//            n--
-//            sb.insert(0,(char) ((n % 26) + base));
-//        return sb.toString();
+

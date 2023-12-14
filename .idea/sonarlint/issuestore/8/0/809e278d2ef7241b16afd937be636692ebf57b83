@@ -1,3 +1,15 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É÷“ùÿÿÿÿ
-E	java:S106"+Replace this use of System.out by a logger.(–‰§çøÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É÷“ùÿÿÿÿ8Å‰­äÅ1
+U
+java:S1854"8Remove this useless assignment to local variable "strs".(±´±8Ã¨ºäÅ1
+F
+java:S1481")Remove this unused "strs" local variable.(±´±8Ä¨ºäÅ1
+L	java:S106"+Replace this use of System.out by a logger.(ÏáĞ›üÿÿÿÿ8Î‹®äÅ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ğ“ìüÿÿÿÿ8ÎÁ®äÅ1
+J	java:S108"")Either remove or fill this block of code.(é˜¤üÿÿÿÿ8”Å·äÅ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ú¶°äÅ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ü¶°äÅ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8İ¶°äÅ1

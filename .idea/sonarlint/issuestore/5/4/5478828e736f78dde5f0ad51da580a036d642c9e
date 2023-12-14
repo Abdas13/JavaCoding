@@ -1,0 +1,10 @@
+
+|
+java:S4165"aRemove this useless assignment; "arr" already holds the assigned value along all execution paths.(¶—…Õüÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(€œù¶ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ò‚õýÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(³—âô
+E	java:S106"+Replace this use of System.out by a logger.(¸îî­ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(É£Ñ×ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ž•Ü±ýÿÿÿÿ

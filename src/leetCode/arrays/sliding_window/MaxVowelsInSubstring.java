@@ -1,5 +1,9 @@
 package leetCode.arrays.sliding_window;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 public class MaxVowelsInSubstring {
     public static void main(String[] args) {
         /*
@@ -18,20 +22,23 @@ Explanation: "lee", "eet" and "ode" contain 2 vowels.
 
     }
     public static int maxVowels(String s, int k){
-        int left = 0;
-        int curr = 0;
-        int ans = 0;
-        int count=0;
-        for (int right = 0; right < s.length()-3; right++) {
-            String str = s.substring(right, right+3);
-            while(str.contains("[aeiou]")){
-                count++;
-            }
-            ans = Math.max(ans, count);
-            count=0;
+        HashSet<Character> set= new HashSet<>();
+        set.add('a');
+        set.add('e');
+        set.add('i');
+        set.add('o');
+        set.add('u');
+        int vowel = 0;
+        for (int i = 0; i < k; i++) {
+            if(set.contains(s.charAt(i)))
+                vowel++;
         }
-        return ans;
-
-    }
-
+        int maxVowel = vowel;
+        for (int i = k; i < s.length() ; i++) {
+            if(set.contains(s.charAt(i-k))) vowel--;
+            if (set.contains(s.charAt(i))) vowel++;
+            maxVowel = Math.max(maxVowel, vowel);
+        }
+        return maxVowel;
+        }
 }

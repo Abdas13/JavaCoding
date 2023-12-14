@@ -1,0 +1,10 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(€œù¶ûÿÿÿÿ
+P	java:S125	"<This block of commented-out lines of code should be removed.(ü¬×
+@	java:S106"+Replace this use of System.out by a logger.(×Æáî
+@	java:S106"+Replace this use of System.out by a logger.(ÐÛâï
+E	java:S106"+Replace this use of System.out by a logger.(ƒìîüýÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ý†ùÿÿÿÿ
+M
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ

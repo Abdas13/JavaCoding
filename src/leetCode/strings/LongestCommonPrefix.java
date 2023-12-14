@@ -23,7 +23,21 @@ public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] strs= {"flower","flow","flight"};
         String[] str = {"choosen","copen", "cbroken" };
-        System.out.println(longestComPrefix(strs));
-        System.out.println(longestComPrefix(str));
+//        System.out.println(longestComPrefix(strs));
+//        System.out.println(longestComPrefix(str));
+
+        System.out.println(longestCommonPrefix(str));
+    }
+    public static String longestCommonPrefix(String[] s){
+        for (int i = 0; i < s.length-1; i++) {
+            for (int j = 0; j < s[1].length(); j++) {  // s[1] is not dynamic
+                if (s[i].charAt(j)==s[i+1].charAt(j)){
+
+                }else{
+                    return s[i].substring(0,j);
+                }
+            }
+        }
+        return "";
     }
 }
