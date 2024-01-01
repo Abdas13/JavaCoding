@@ -1,5 +1,7 @@
 package leetCode.arrays;
 
+import java.util.Arrays;
+
 public class RemoveElement {
     /* Given an integer array nums and an integer val, remove all occurrences
     of val in nums in-place. The order of the elements may be changed.
@@ -11,7 +13,7 @@ public class RemoveElement {
     public static void main(String[] args) {
         int[] nums = {3,2,2,2,2,3};
         int val = 3;
-        System.out.println(removeElement(nums,val));
+//        System.out.println(removeElement(nums,val));
         System.out.println(removeEl(nums, val));
     }
     public static int removeElement(int[] nums, int value){
@@ -22,13 +24,16 @@ public class RemoveElement {
                 left++;
             }
         }
+        System.out.println(Arrays.toString(nums));
         return left;
     }
     public static int removeEl(int[] nums, int value){
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
-            if(nums[i]!=value) count++;
+            if(nums[i]!=value)
+                count++;
         }
+        System.out.println(Arrays.toString(nums));
         return count;
     }
 }

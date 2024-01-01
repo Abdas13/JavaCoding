@@ -20,12 +20,6 @@ public class RemoveDuplFromSortedArray {
                 nums[left]=nums[right];
             }
         }
-//        List<Integer> list= new ArrayList<>();
-//        for (int i = 0; i < left+1; i++) {
-//            list.add(nums[i]);
-
-//        }
-//        System.out.println(list);
         return  left+1;
     }
 }

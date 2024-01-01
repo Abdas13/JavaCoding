@@ -5,8 +5,9 @@ G	java:S106"+Replace this use of System.out by a logger.(•ÊàÙ8Ê°ÄáÃ1
 L	java:S106"+Replace this use of System.out by a logger.(—ê€«şÿÿÿÿ8Ë°ÄáÃ1
 S
 java:S1854*"6Remove this useless assignment to local variable "hm".(™Ô¨è8ğ™ÈáÃ1
-E
-java:S1172)"(Remove this unused method parameter "d".(ÿÈâ8ğ™ÈáÃ1
+R
+java:S1854-"5Remove this useless assignment to local variable "t".(ì¨Û˜8ÁãÜÆ1
 D
 java:S1481*"'Remove this unused "hm" local variable.(™Ô¨è8ñ™ÈáÃ1
-J	java:S108,")Either remove or fill this block of code.(Šµ÷ºûÿÿÿÿ8ñ™ÈáÃ1
+C
+java:S1481-"&Remove this unused "t" local variable.(ì¨Û˜8ÍãÜÆ1

@@ -5,25 +5,31 @@ import java.util.Stack;
 
 public class ValidParantheses {
     public static void main(String[] args) {
-
+        String s = "(){}[]";
+        String str = "({)}";
+        System.out.println(isParanthesesValid(s));
+        System.out.println(isParanthesesValid(str));
     }
     public static boolean isParanthesesValid(String s){
-        HashMap<Character, Character> hm = new HashMap<>();
-        hm.put(')', '(');
-        hm.put(']', '[');
-        hm.put('}', '{');
+        HashMap<Character, Character> matching = new HashMap<>();
         Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < s.length(); i++) {
-            char curr = s.charAt(i);
-            if(hm.containsKey(curr)){
-                char pop = stack.size() != 0 ? stack.pop() : '#';
-                if(pop != stack.get(curr)){
+
+        matching.put('(', ')');
+        matching.put('[', ']');
+        matching.put('{', '}');
+
+        for (char c: s.toCharArray()){
+            if (matching.containsKey(c))
+                stack.push(c);
+            else {
+                if (stack.empty()){
                     return false;
                 }
-            }else{
-                stack.push(curr);
+                char previousOpening = stack.pop();
+                if (matching.get(previousOpening) != c)
+                    return false;
             }
         }
-        return stack.isEmpty();
+        return stack.empty();
     }
 }

@@ -6,6 +6,7 @@ import java.util.TreeMap;
 public class CountCharsAndWrite {
     public static void main(String[] args) {
         String str = "aabcccddaaaac";
+        // Output = a6b1c4d2
         //output=a2b1c3d2a4
 //        System.out.println(countChars(str).toString());
 //        System.out.println(countandWrite(str));
